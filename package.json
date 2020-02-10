@@ -27,8 +27,7 @@
     "start": "webpack-dev-server --env.dev --watch-poll",
     "benchmark": "webpack-dev-server --watch-poll --env.server=benchmark",
     "build": "rm -rf dist/* && ./script/build.js",
-    "compile": "rm -rf lib/* && babel src -d lib",
-    "prepublishOnly": "npm run compile && npm run build"
+    "compile": "rm -rf lib/* && babel src -d lib"
   },
   "repository": {
     "type": "git",
