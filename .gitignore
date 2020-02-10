@@ -46,3 +46,7 @@ sftp-config.json
 jsconfig.json
 esconfig.json
 package-lock.json
+
+.history
+dist
+lib
