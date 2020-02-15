@@ -1,8 +1,9 @@
 {
   "name": "r2c-spritejs-core",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "description": "Platform-independent canvas render object model api.",
   "main": "./dist/sprite-core.min.js",
+  "module": "./lib/index.js",
   "types": "./lib/index.d.ts",
   "typings": "./lib/index.d.ts",
   "esnext": {
